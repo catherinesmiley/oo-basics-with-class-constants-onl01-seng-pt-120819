@@ -45,7 +45,7 @@ class Shoe
     @brand = brand
     if BRANDS[brand]
     else
-      BRANDS << BRANDS
+      BRANDS << brand
     end
   end
 
